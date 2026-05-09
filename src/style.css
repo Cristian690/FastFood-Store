@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+a{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ff7b00;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+/* ---------------- LINK AL CARRITO --------------------- */
+
+#nav-cart{
+    text-align: end;
+}
+
+/* --------------------LINK A HOME --------------------- */
+
+#nav-home{
+    text-align: end;
+}
+
+/* ---------------- CATEGORIAS ---------------- */
+
+#section-categoria{
+    margin-bottom: 20px;
+}
+
+#section-buttons-cat{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#btn-reset-home{
+    background-color: rgb(189, 20, 20);
+}
+
+/* ---------------- BUSCADOR ---------------- */
+
+#input-buscar{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* ---------------- PRODUCTOS ---------------- */
+
+#card-productos-container{
+    display: grid;    
+    grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
+    gap: 20px;
+    
+}
+
+#card-productos-container div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#card-productos-container img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#card-productos-container button{
+    margin-top: auto;
+}
+
+#card-productos-container h2{
+    min-height: 60px;
+}
+
+/* ---------------- CARRITO ---------------- */
+
+
+
+#carrito-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#carrito-container div{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#carrito-container img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+#carrito-container h2{
+    margin-top: 10px;
+}
+
+#total-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
